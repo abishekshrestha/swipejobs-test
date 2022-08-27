@@ -1,0 +1,21 @@
+$color: #bdbdbd;
+
+.spinner {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+	width: 10px;
+	height: 10px;
+}
+
+.spinner--circle {
+	border: 4px rgba($color,0.25) solid;
+	border-top: 4px rgba($color,1) solid;
+	border-radius: 50%;
+	-webkit-animation: spinner .6s infinite linear;
+	animation: spinner .6s infinite linear;
+}
+@keyframes spinner {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(359deg); }
+}

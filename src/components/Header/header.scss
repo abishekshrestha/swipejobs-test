@@ -1,0 +1,22 @@
+.header {
+  font-size: 30px;
+  color: #fff;
+  background-color: #000;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  .header-bold {
+    font-weight: 700;
+  }
+
+  .user-name {
+    font-size: 18px;
+    align-self: center;
+  }
+
+  &-logo {
+    max-width: 150px;
+  }
+}

@@ -1,0 +1,129 @@
+.job-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: calc(100vh - 100px);
+  p {
+    margin: 0 0 4px 0;
+  }
+
+  &-container {
+    padding: 10px 20px;
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-grow: 1;
+    }
+  }
+
+  .image-style {
+    width: 100%;
+  }
+  .job-description {
+    &__title {
+      font-weight: 800;
+    }
+    &__company {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  .distance-rate-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2fd5aa;
+
+    &__title {
+      font-size: 11px;
+      font-weight: 700;
+      padding-bottom: 4px;
+    }
+
+    .text-align-end {
+      text-align: end;
+    }
+
+    &__value {
+      color: white;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    &__dollar {
+      font-size: 14px;
+      position: relative;
+      top: -12px;
+    }
+  }
+
+  .job-item {
+    display: flex;
+    padding: 16px 0;
+    align-items: flex-start;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &__location {
+      text-decoration: none;
+      color: currentColor;
+    }
+
+    &__icon {
+      padding-right: 16px;
+      padding-top: 8px;
+    }
+
+    &__chevron {
+      stroke: white;
+      align-self: center;
+    }
+
+    &__title {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    &__content {
+      font-size: 14px;
+      flex: auto;
+      &--small {
+        font-size: 11px;
+      }
+    }
+    &__date {
+      text-transform: uppercase;
+    }
+  }
+
+  .button-section {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-top: 10px;
+    min-height: 53px;
+
+    .button {
+      padding: 16px 24px;
+      border-radius: 4px;
+      width: 100%;
+      font-size: 16px;
+      &-light {
+        color: #bdbdbd;
+        background-color: white;
+        border: #bdbdbd solid 1px;
+      }
+      &-dark {
+        color: white;
+        background-color: black;
+        border: black solid 1px;
+      }
+    }
+  }
+}

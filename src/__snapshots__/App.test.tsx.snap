@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot with mock API 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="header"
+    >
+      <img
+        alt="logo"
+        class="header-logo"
+        src="swipejobs.svg"
+      />
+      <div
+        class="user-name"
+      >
+        Jim Rose
+      </div>
+    </header>
+    <div
+      class="container"
+    >
+      <div
+        class="job-card"
+      >
+        <img
+          alt="job_image"
+          class="image-style"
+          src="https://imgs.swipejobs.com/js/job-category/construction-1.jpg"
+        />
+        <div
+          class="job-description job-card-container"
+        >
+          <p
+            class="job-description__title"
+          >
+            Construction General Helper
+          </p>
+          <p
+            class="job-description__company"
+          >
+            Steve Smith Construction
+          </p>
+        </div>
+        <div
+          class="distance-rate-info job-card-container"
+        >
+          <div>
+            <div
+              class="distance-rate-info__title"
+            >
+              Distance
+            </div>
+            <div
+              class="distance-rate-info__value"
+            >
+              3.4 miles
+            </div>
+          </div>
+          <div>
+            <div
+              class="distance-rate-info__title text-align-end"
+            >
+              Hourly Rate
+            </div>
+            <div
+              class="distance-rate-info__value text-align-end"
+            >
+              <sup
+                class="distance-rate-info__dollar"
+              >
+                $
+              </sup>
+              9.50
+            </div>
+          </div>
+        </div>
+        <div
+          class="job-card-container job-card-container--content"
+        >
+          <div>
+            <div
+              class="job-item"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium job-item__icon css-i4bv87-MuiSvgIcon-root"
+                data-testid="CalendarMonthIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+                />
+              </svg>
+              <div
+                class="job-item__content"
+              >
+                <p
+                  class="job-item__title"
+                >
+                  Shift Dates
+                </p>
+                <div
+                  class="job-item__date"
+                >
+                  <div>
+                    Sep 4, Wed 4:00 pm - 12:00 am CDT
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="job-item job-item__location"
+              href="https://map.google.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium job-item__icon css-i4bv87-MuiSvgIcon-root"
+                data-testid="LocationOnIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                />
+              </svg>
+              <div
+                class="job-item__content"
+              >
+                <p
+                  class="job-item__title"
+                >
+                  Location
+                </p>
+                <p
+                  class=""
+                >
+                  430 Smith St, Chicago, IL 60654, USA
+                </p>
+                <p
+                  class="job-item__content--small"
+                >
+                  3.40 miles from your job search location
+                </p>
+              </div>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium job-item__chevron css-i4bv87-MuiSvgIcon-root"
+                data-testid="ArrowForwardIosIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+                />
+              </svg>
+            </a>
+            <div
+              class="job-item"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium job-item__icon css-i4bv87-MuiSvgIcon-root"
+                data-testid="AccountCircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 2.12C16.43 19.18 14.03 20 12 20z"
+                />
+              </svg>
+              <div
+                class="job-item__content"
+              >
+                <p
+                  class="job-item__title"
+                >
+                  Report To
+                </p>
+                <p>
+                  Judy (213) 001 0012
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="button-section"
+          >
+            <button
+              class="button button-light"
+            >
+              No Thanks
+            </button>
+            <button
+              class="button button-dark"
+            >
+              "I'll Take it
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
